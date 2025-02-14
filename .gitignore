@@ -1,0 +1,26 @@
+# Ignore build directory
+build/
+
+# Ignore output directories
+out/
+bin/
+lib/
+
+# Ignore CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+cmake-build-debug/
+.idea/
+
+
+# Ignore executables
+*.exe
+*.out
+*.o
+
+# Ignore cppcheck result files
+cppcheck.xml
+
