@@ -1,0 +1,2 @@
+add_library(usb_uart_interface_lib STATIC usb_uart_interface.c)
+target_include_directories(usb_uart_interface_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
